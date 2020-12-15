@@ -3,9 +3,19 @@
 API Python para comuniação com o aplicativo [Pigeon SMS Gateway](https://github.com/coderealmhub/PigeonSMSGateway).
 
 
-# Install Requirements
-
 # Settings
+
+## Virtualenv
+
+    virtualenv .venv
+    
+    source .venv/bin/activate
+
+## Install Requirements
+
+## Generate SSL Https
+
+    openssl req -nodes -new -x509 -keyout server.key -out server.cert
 
 # Start Server
 
