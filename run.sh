@@ -1,1 +1,0 @@
-uvicorn main:app --host 0.0.0.0 --port 1404 --reload --ssl-keyfile=server.key --ssl-certfile=server.cert
