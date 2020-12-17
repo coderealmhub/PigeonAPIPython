@@ -1,0 +1,1 @@
+'fantasy_name' => $company->fantasy_nameuvicorn main:app --host 0.0.0.0 --port 8000 --reload --ssl-keyfile=server.key --ssl-certfile=server.cert
