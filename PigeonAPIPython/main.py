@@ -102,6 +102,14 @@ def read_send(current_user: UserInfo = Depends(get_current_user), db: Session = 
     }
 
 @app.get("/send/{android_id}")
+def read_send(android_id: str, db: Session = Depends(get_db)):
+    response = crud.get_all_sms_by_android_id(db=db, android_id=android_id)
+    return {
+        "error": False,
+        "response": response
+    }
+
+@app.get("/send/{android_id}")
 def read_send(android_id: str, urrent_user: UserInfo = Depends(get_current_user), db: Session = Depends(get_db)):
     response = crud.get_all_sms_by_android_id(db=db, android_id=android_id)
     return {

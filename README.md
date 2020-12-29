@@ -52,3 +52,8 @@ or install Letsencrypt
 # TODO
 
 [Admin API](https://github.com/long2ice/fastapi-admin)
+
+
+# Reference
+
+[](https://codeburst.io/implement-a-production-ready-rest-service-using-fastapi-13f284562c75)
